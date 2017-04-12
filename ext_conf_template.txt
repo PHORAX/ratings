@@ -1,0 +1,2 @@
+# cat=basic; type=boolean; label=Debug mode:While in debug mode, it is possible to remove entries from rating tables or change values there
+debugMode = 0

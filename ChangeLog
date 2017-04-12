@@ -1,0 +1,85 @@
+2014-03-19 v2.0.3 Klaus Bitto <klaus@netcreators.nl>
+
+	* New version number for renewed TER upload, including the bugfixes
+	from v2.0.1.
+
+2014-03-19 v2.0.1 Klaus Bitto <klaus@netcreators.nl>
+
+	* Fix: Changed JS function call in ratingsMicrodata from camelCase to underscored tx_ratings_submit.
+	* Fix: Changed $() into jQuery() in res/rating.jquery.js to allow for jQuery.noConflict() setups.
+
+2014-03-07 v2.0.0 Klaus Bitto <klaus@netcreators.nl>
+
+	First TYPO3 6 compatibility adjustments:
+	* Applied requested changes from http://forge.typo3.org/attachments/24829/patch_ratings_for_6.2.diff.
+	* Fixed t3lib_div::readLL{XML}file().
+	* Release version 2.0.0.
+
+2013-10-29 v1.1.1 Simon Schmidt <sfs@marketing-factory.de>
+
+	* extension cleanup
+	* bugfix "Changing tx_ratings_data record leads to rating and vote_count of 10" (thanks to Rik Willems)
+	* Release version 1.1.1
+
+2013-10-29 v1.1.0 Simon Schmidt <sfs@marketing-factory.de>
+
+	* Displaying rating of news item on different pages gives different results (thanks to Lina Wolf)
+	* Add Microdata Support for ratings (thanks to Lina Wolf)
+	* Add stdWrap to reference configuration (thanks to Rik Willems)
+	* Possibility to use ratings for any plugin (thanks to Dimitri Koenig)
+	* Release version 1.1.0
+
+
+2009-04-21 v1.0.10 Dmitry Dulepov  <dmitry@typo3.org>
+
+	* Changed contact information
+	* Released version 1.0.10
+
+2008-09-02 v1.0.9 Dmitry Dulepov	<dmitry@typo3.org>
+
+	* Fixed bug: tt_news rating did not work
+	* Release of ratings 1.0.9
+
+2008-05-26  Dmitry Dulepov  <dmitry@typo3.org>
+
+	* Convert ratings to USER_INT
+	* Use USER_INT in tt_news hook to allow live update for ratings
+	* Fixed bug #8181: Raitings crashes with PHP error if not logged into BE
+
+2008-03-11	Dmitry Dulepov	<dmitry@typo3.org>
+
+	* Fixed bug: ###TX_RATINGS### is shown when ratings are disabled for tt_news item
+
+2008-02-29	Dmitry Dulepov	<dmitry@typo3.org>
+
+	* Fixed bug: $GLOBALS['TSFE']->lang is empty when API works inside AJAX call (thanks to Georg Ringer)
+
+2008-02-25	Dmitry Dulepov	<dmitry@typo3.org>
+
+	* Several fixes for non-working ratings at some installations
+
+2008-02-05	Dmitry Dulepov	<dmitry@typo3.org>
+
+	* Fixes for 'mode' TS parameter
+	* Added flexform confguration to pi1 plugin
+	* Updated manual
+	* Added rollover effects for rating bar
+	* Release of ratings 1.0.0
+	* Adjustment to show multiple ratings on the page
+	* Release of ratings 1.0.1
+	* Small fixes to CSS and labels
+	* Release of ratings 1.0.2
+
+2008-02-04	Dmitry Dulepov	<dmitry@typo3.org>
+
+	* Added debug mode (makes tables visible and writable to BE users)
+	* Added disabling IP check (useful for testing)
+	* Cleaned up various files
+
+2008-02-01	Dmitry Dulepov	<dmitry@typo3.org>
+
+	* Added flag to tt_news to enable/disable ratings
+
+2008-01-28	Dmitry Dulepov	<dmitry@typo3.org>
+
+	* Initial release

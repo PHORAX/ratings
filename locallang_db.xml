@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 'ratings'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tx_ratings_data">Ratings data</label>
+			<label index="tx_ratings_data.reference">Rated item:</label>
+			<label index="tx_ratings_data.rating">Accumulated rating value:</label>
+			<label index="tx_ratings_data.vote_count">Number of votes:</label>
+			<label index="tx_ratings_iplog">Ratings IP data</label>
+			<label index="tx_ratings_iplog.reference">Rated item:</label>
+			<label index="tx_ratings_iplog.crdate">Rated on:</label>
+			<label index="tx_ratings_iplog.ip">IP address:</label>
+			<label index="tt_content.list_type_pi1">Ratings</label>
+			<label index="moduleFunction.tx_ratings_modfunc1">Ratings</label>
+			<label index="tt_news.tx_ratings_enable">Enable ratings</label>
+		</languageKey>
+		<languageKey index="default" type="array">
+			<label index="tx_ratings_data">Alle Bewertungen</label>
+			<label index="tx_ratings_data.reference">einzelne Bewertung:</label>
+			<label index="tx_ratings_data.rating">durchschnittliche Bewertung:</label>
+			<label index="tx_ratings_data.vote_count">Anzahl der Bewertungen:</label>
+			<label index="tx_ratings_iplog">IP der Bewertung</label>
+			<label index="tx_ratings_iplog.reference">Bewertungsobjekt:</label>
+			<label index="tx_ratings_iplog.crdate">Bewertet am:</label>
+			<label index="tx_ratings_iplog.ip">IP-Adresse:</label>
+			<label index="tt_content.list_type_pi1">Bewertungen</label>
+			<label index="moduleFunction.tx_ratings_modfunc1">Bewertungen</label>
+			<label index="tt_news.tx_ratings_enable">Bewertung freischalten</label>
+		</languageKey>
+	</data>
+</T3locallang>

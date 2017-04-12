@@ -1,0 +1,11 @@
+{
+  "name": "phorax/ratings",
+  "description": "ratings",
+  "type": "typo3-cms-extension",
+  "license": "proprietary",
+  "require": {},
+  "version": "2.0.3",
+  "autoload": {
+    "classmap": ["pi1/", "class.tx_ratings_api.php", "class.tx_ratings_ajax.php", "class.tx_ratings_ttnews.php"]
+  }
+}

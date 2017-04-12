@@ -1,0 +1,17 @@
+/*
+	Images (c) ryan masuga, ryan@masugadesign.com (http://www.masugadesign.com/the-lab/scripts/unobtrusive-ajax-star-rating-bar/)
+*/
+.tx-ratings { padding-top: 35px; }
+.tx-ratings-grey-bar { width: 150px; height: 30px; background-image: url(masugadesign.gif); }
+.tx-ratings-gold-bar { height: 30px; background: url(masugadesign.gif) repeat-x 0 -30px; }
+.tx-ratings-vote-bar { width: 150px; height: 30px; }
+.tx-ratings-vote-bar DIV A { width: 30px; height: 30px; }
+.tx-ratings-vote-bar DIV A:hover { background-image: url(masugadesign.gif); background-position: 0 -60px; }
+.tx-ratings-text { font-size: 11px; }
+
+
+.tx-ratings-vote-bar DIV A.tx-ratings-star-1 { left: 0px; width: 30px; z-index: 5; }
+.tx-ratings-vote-bar DIV A.tx-ratings-star-2 { left: 0px; width: 60px; z-index: 4; }
+.tx-ratings-vote-bar DIV A.tx-ratings-star-3 { left: 0px; width: 90px; z-index: 3; }
+.tx-ratings-vote-bar DIV A.tx-ratings-star-4 { left: 0px; width: 120px; z-index: 2; }
+.tx-ratings-vote-bar DIV A.tx-ratings-star-5 { left: 0px; width: 150px; z-index: 1; }

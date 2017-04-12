@@ -1,0 +1,16 @@
+plugin.tx_ratings_pi1 = USER_INT
+plugin.tx_ratings_pi1 {
+	includeLibs = EXT:ratings/pi1/class.tx_ratings_pi1.php
+	userFunc = tx_ratings_pi1->main
+	storagePid = {$plugin.tx_ratings_pi1.storagePid}
+	templateFile = {$plugin.tx_ratings_pi1.templateFile}
+	minValue = {$plugin.tx_ratings_pi1.minValue}
+	maxValue = {$plugin.tx_ratings_pi1.maxValue}
+	ratingImageWidth = {$plugin.tx_ratings_pi1.ratingImageWidth}
+	mode = {$plugin.tx_ratings_pi1.mode}
+	disableIpCheck = {$plugin.tx_ratings_pi1.disableIpCheck}
+}
+
+[globalVar = LIT:1 = {$plugin.tx_ratings_pi1.showAdditionalCSS}]
+{$plugin.tx_ratings_pi1.pageObjectName}.includeCSS.ratingsAddtionalCSS = {$plugin.tx_ratings_pi1.additionalCSS}
+[end]

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for extension 'ratings'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="pi1_title">Ratings</label>
+			<label index="pi1_plus_wiz_description">Modern AJAX-based rating system</label>
+			<label index="api_rating">Rating: %1$.1f of %2$d. %3$d vote(s).</label>
+			<label index="api_not_rated">Not rated yet. Be the first who rates this item!</label>
+			<label index="api_submitting">Submitting your vote...</label>
+			<label index="api_already_rated">You have rated this item already.</label>
+			<label index="api_tip">Click the rating bar to rate this item.</label>
+		</languageKey>
+		<languageKey index="de" type="array">
+			<label index="pi1_title">Bewertungen</label>
+			<label index="pi1_plus_wiz_description">Bewertungssystem mit Sternen (auf AJAX basierend)</label>
+			<label index="api_rating">%1$.1f von %2$d Sternen. %3$d Bewertung(en).</label>
+			<label index="api_not_rated">Aktuell hat noch niemand eine Bwertung abgegeben.</label>
+			<label index="api_submitting">Ihre Bewertung wurde hinzugefügt...</label>
+			<label index="api_already_rated">Es wurde bereits eine Bwertung abgegeben.</label>
+			<label index="api_tip">Zum Bewerten bitte auf den gewünschten Stern drücken.</label>
+		</languageKey>
+	</data>
+</T3locallang>

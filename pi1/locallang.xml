@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for plugin &quot;tx_ratings_pi1&quot;</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tt_content.tx_ratings_pi1.storage.page">Storage page for rating records:</label>
+			<label index="tt_content.tx_ratings_pi1.template_file">Template file to use:</label>
+			<label index="no_ts_template">Error: TS template from ratings extension is not included to site TS template</label>
+		</languageKey>
+	</data>
+</T3locallang>
